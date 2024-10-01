@@ -146,11 +146,11 @@ document.getElementById('btn-donation').addEventListener('click', function () {
 document.getElementById('btn-blog').addEventListener('click', function(){
     window.location.href = '/blog.html';
 })
-document.getElementById('btn-home').addEventListener('click', function () {
+// document.getElementById('btn-home').addEventListener('click', function () {
 
-    let blogBalance = textById('blog-balance');
-    blogBalance = mainBalanceValue;
-})
+//     let blogBalance = textById('blog-balance');
+//     blogBalance = mainBalanceValue;
+// })
 
 
 
