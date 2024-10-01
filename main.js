@@ -143,9 +143,9 @@ document.getElementById('btn-donation').addEventListener('click', function () {
 
 // ---- Blog button ------
 
-document.getElementById('btn-blog').addEventListener('click', function(){
-    window.location.href = '/blog.html';
-})
+// document.getElementById('btn-blog').addEventListener('click', function(){
+//     window.location.href = '/blog.html';
+// })
 // document.getElementById('btn-home').addEventListener('click', function () {
 
 //     let blogBalance = textById('blog-balance');

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donate Bangladesh</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <!-- Header start -->
+    <header class="bg-orange-100 mb- py-5">
+        <div class="flex place-content-around max-w-screen-xl">
+            <button id="btn-home" class="btn bg-[#B4F461] px-9"><a href="./index.html">Home</a></button>
+            <div class="flex items-center gap-2">
+                <img class="min-w-10 h-auto" src="./assets/logo.png" alt="">
+                <h3 class="text-xl font-semibold">Donate Bangladesh</h3>
+            </div>
+            <div class="flex items-center gap-2">
+                <img class="w-full" src="./assets/coin.png" alt="">
+                <p id="blog-balance" class="font-semibold">5000</p> <span class="font-semibold">BDT</span>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section>
+            <!-- header section end -->
+            <h1 class="font-bold text-3xl px-24 py-8">Important FAQ</h1>
+            <!-- Accordion start -->
+            <div class="px-24 grid grid-cols-1 gap-3">
+                <div class="collapse collapse-arrow bg-base-200 ">
+                    <input type="radio" name="my-accordion-2" checked="checked" />
+                    <div class="collapse-title text-xl font-medium">What is the Document Object Model (DOM)?</div>
+                    <div class="collapse-content">
+                        <p>It converts HTML material into a standardized object that can be easily accessed and modified
+                            by
+                            functional programming languages such as JavaScript.</p>
+                    </div>
+                </div>
+                <div class="collapse collapse-arrow bg-base-200">
+                    <input type="radio" name="my-accordion-2" />
+                    <div class="collapse-title text-xl font-medium">How do you select an element from the DOM?</div>
+                    <div class="collapse-content">
+                        <p>There are several methods provided by the DOM API to access elements, depending
+                            targeting such as an element by its ID, class, tag, or CSS selector.</p>
+                    </div>
+                </div>
+                <div class="collapse collapse-arrow bg-base-200">
+                    <input type="radio" name="my-accordion-2" />
+                    <div class="collapse-title text-xl font-medium">What is the event delegation in the context of DOM,
+                        and why is it useful?
+                    </div>
+                    <div class="collapse-content">
+                        <p>It manage events more effectively, particularly when managing several components. Rather than
+                            giving every element a separate event listener</p>
+                    </div>
+                </div>
+                <div class="collapse collapse-arrow bg-base-200">
+                    <input type="radio" name="my-accordion-2" />
+                    <div class="collapse-title text-xl font-medium">How do you manipulate an element's attributes and
+                        styles
+                        using DOM?</div>
+                    <div class="collapse-content">
+                        <p>JavaScript offers a number of properties and methods for working with an element's DOM to
+                            change
+                            its styles and attributes. getAttribute() setAttribute() style etc. are attributes and
+                            styles
+                            for manipulation.</p>
+                    </div>
+                </div>
+                <!-- Accordion end -->
+            </div>
+        </section>
+    </main>
+
+    <script>
+        // document.getElementById('btn-home').addEventListener('click', function () {
+        //     window.location.href = '/index.html';
+        // })
+
+        
+    </script>
+    <script src="./main.js"></script>
+</body>
+
+</html>
