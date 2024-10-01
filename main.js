@@ -143,9 +143,9 @@ document.getElementById('btn-donation').addEventListener('click', function () {
 
 // ---- Blog button ------
 
-// document.getElementById('btn-blog').addEventListener('click', function(){
-//     window.location.href = './blog.html';
-// })
+document.getElementById('btn-blog').addEventListener('click', function(){
+    window.location.href = '/js-donate-bangladesh/blog.html';
+})
 
 // document.getElementById('btn-blog').addEventListener('click', function (event) {
 //     event.preventDefault();
